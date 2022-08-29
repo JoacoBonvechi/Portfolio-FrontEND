@@ -93,3 +93,61 @@ body {
     font-weight: 400;
     padding: 20px;
 }
+
+/* MY WORK */
+
+.my-work {
+    background-color: #9747FF;
+    padding: 60px 0px;
+    text-align: center;
+}
+.my-work h2{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.my-work-content {
+    padding: 80px 0px;
+}
+
+.card-work {
+    width: 250px;
+    height:210px;
+    border-radius: 7px;
+    background-color: #9747FF;
+}
+
+/*  CONTACT  */
+
+.contact {
+    padding: 60px 0px;
+    background-color: #0071bb;
+    text-align: center;
+}
+.contact h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.contact-content {
+    padding: 80px 0px;
+}
+.contact-content h3 {
+    color: #757575;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.contact-content div{
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+}
+.contact-content div label{
+    font-weight: 500;
+    color: #b3b3b3;
+}
+.contact-content div form .col-md-12 {
+    height: auto;
+} 
