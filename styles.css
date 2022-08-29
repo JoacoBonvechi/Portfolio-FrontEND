@@ -1,0 +1,95 @@
+html{
+    font-size: 62,5%;
+    scroll-behavior: smooth;
+       /*Comenta la línea (o dale el valor 'auto' a scroll behavior )
+       para probar la diferencia con y sin scroll suavizado*/
+    
+}
+body {
+    background-color: black;
+}
+.presentacion {
+    height: 100vh;
+    position: relative;
+}
+.presentacion .row {
+    height: 100%;
+}
+.text-presentacion {
+    padding-bottom: 40%;
+}
+.presentacion .row .d-flex div h1 {
+    font-size: 3.5rem;
+    color: #1CA800;
+    margin-bottom: 35px;
+}
+.presentacion .row .d-flex div h4{
+    padding-left: 10px;
+    color: #1CA800;
+}
+.photo-section div {
+    width: 300px;
+    height: 300px;
+    background-color: #1CA800;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-right: 10%;
+}
+.presentacion .boton {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: calc(50% - 5px);
+    top: 90%;
+    background-color: #1E1E1E;
+}
+
+/*TECNOLOGIAS Y LENGUAJES */
+
+.tech-and-lang {
+    background-color: #1E1E1E;
+    text-align: center;
+    padding: 60px 0px;
+}
+.tech-and-lang h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.tech-and-lang-content {
+    padding: 80px 0px;
+}
+.tech-and-lang-content img {
+    width: 110px;
+    height: 110px;
+}
+
+/*ABOUT ME */
+
+.about-me {
+    background-color: white;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.about-me h2 {
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.about-me-content {
+    padding: 80px 0px;
+}
+.me-card , .studyes-card {
+    background-color: #1E1E1E;
+    border-radius: 7px;
+    padding: 20px 20px;
+    text-align: center;
+    color: white;
+
+}
+.me-card h3 , .studyes-card h3{
+    font-weight: 400;
+    padding: 20px;
+}
