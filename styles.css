@@ -117,6 +117,81 @@ body {
     border-radius: 7px;
     background-color: #9747FF;
 }
+.card-work .card-content {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    transition: all 400ms ease;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.card-content p {
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    opacity: 0;
+    transition: all 400ms ease;
+    align-self: center;
+    cursor: default;
+}
+.card-content a {
+    align-self: flex-start;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 7px 10px 15px;
+    border: solid #9747FF 3px;
+    color: white;
+    border-radius: 25px;
+    opacity: 0;
+    transition: all 400ms ease;
+}
+.card-content a:hover {
+    background-color: #9747FF;
+    transition: all 100ms cubic-bezier(0, 0, 0, 1.76);
+}
+
+.card-work #javascript {
+    background-image: url(./assets/js\ proyect\ scren.jpg);
+}
+.card-work #milhouse {
+    background-image: url(./assets/milhouse.jpg);
+}
+.card-work #batatabit {
+    background-image: url(./assets/batatabit.jpg);
+}
+
+
+
+.card-work .card-content:hover{
+    box-shadow: -2px 0px 70px 200px rgba(30,30,30,0.95) inset;
+-webkit-box-shadow: -2px 0px 70px 200px rgba(30,30,30,0.95) inset;
+-moz-box-shadow: -2px 0px 70px 200px rgba(30,30,30,0.95) inset;
+    transition: all 400ms ease;
+}
+.card-work .card-content:hover p{
+    opacity: 1;
+    transition: all 500ms ease;
+}
+.card-work .card-content:hover a{
+    opacity: 1;
+    transition: all 500ms ease;
+}
+
+.span-img-work {
+    display: inline-block;
+    background-image: url(./assets/keyboard_arrow_right.svg);
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-bottom:2px;
+}
+
 
 /*  CONTACT  */
 
@@ -151,3 +226,56 @@ body {
 .contact-content div form .col-md-12 {
     height: auto;
 } 
+
+/*  FOOTER  */
+
+footer {
+    background-color: #1E1E1E;
+    padding: 10px;
+}
+
+.footer-redes ul{
+    padding: 0;
+    margin: 0;
+}
+
+.footer-redes ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+.footer-redes ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.facebook-icon {
+    background-image: url(./assets/facebook.png);
+    width:24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+.twitter-icon {
+    background-image: url(./assets/gorjeo.png);
+    width:24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+.instagram-icon {
+    background-image: url(./assets/instagram.png);
+    width:24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
