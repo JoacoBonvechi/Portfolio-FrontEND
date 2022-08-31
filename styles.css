@@ -41,15 +41,58 @@ body {
     margin-top: 30%;
     margin-right: 10%;
 }
-.presentacion .boton {
+.presentacion .boton a{
+    opacity: 0;
     border-radius: 50%;
     width: 30px;
     height: 30px;
     position: absolute;
     right: calc(50% - 5px);
     top: 90%;
-    background-color: #1E1E1E;
+    background-image: url(./assets/boton\ presentacion.svg);
+    animation: movimiento 10s;
+    animation-iteration-count: 1;
 }
+
+@keyframes movimiento {
+    0% {
+        top: 91%;
+        opacity: 0;
+    }
+    10%{top: 90%;
+        opacity: 1;
+
+    }
+    20% {
+        top: 91%;
+    }
+    30%{top: 90%;
+
+    }
+    40% {
+        top: 91%;
+    }
+    50%{top: 90%;
+
+    }
+    60% {
+        top: 91%;
+    }
+    70%{top: 90%;
+
+    }
+    80% {
+        top: 91%;
+    }
+    90%{top: 90%;
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+
+}
+
 
 #presentacion-title {
     padding-right: 30px;
@@ -123,13 +166,22 @@ body {
     padding: 20px 20px;
     text-align: center;
     color: white;
+    padding-bottom: 30px;
 
 }
 .me-card h3 , .studyes-card h3{
     font-weight: 400;
     padding: 20px;
 }
-
+.bar-yoprogramo {
+    background-color: #9747FF;
+}
+.bar-tecnicatura {
+    background-color: #0d99ff;
+}
+.progress {
+    margin-bottom: 25px;
+}
 /* MY WORK */
 
 .my-work {
@@ -200,6 +252,9 @@ body {
 }
 .card-work #batatabit {
     background-image: url(./assets/batatabit.jpg);
+}
+.card-work #blog-index {
+    background-image: url(./assets/blog\ index.jpg);
 }
 
 
