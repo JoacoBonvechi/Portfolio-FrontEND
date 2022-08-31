@@ -17,12 +17,12 @@ const maquinaEscribir1 = (text1 = '', tiempo1 = 200, etiqueta1 = '') => {
     
 };
 
-maquinaEscribir1("Hello I'm Joaquin",100, maquina1);
+maquinaEscribir1("Hello, I'm Joaquin",100, maquina1);
 
 setTimeout(() => {
     maquinaEscribir1("Full Stack Developer", 70, maquina2)
-},1800);
+},2000);
 
 setTimeout(() => {
-    maquinaEscribir1("Specialized in Front End", 70, maquina3)
+    maquinaEscribir1("Specialized in Front End.", 70, maquina3)
 },3500);
