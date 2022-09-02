@@ -43,13 +43,13 @@ body {
 }
 
 
-.presentacion .boton a{
+.presentacion a{
     opacity: 0;
     border-radius: 50%;
     width: 30px;
     height: 30px;
     position: absolute;
-    right: calc(50% - 5px);
+    right: calc(50% - 15px);
     top: 90%;
     background-image: url(./assets/boton\ presentacion.svg);
     animation: movimiento 10s;
@@ -154,7 +154,7 @@ body {
 
 .card-work {
     width: 280px;
-    height:220px;
+    height:215px;
     border-radius: 7px;
 }
 .card-work .card-content {
@@ -322,6 +322,16 @@ footer {
     margin-right: 10px;
     vertical-align: bottom;
 }
+.linkedin-icon {
+    background-image: url(./assets/icons8-linkedin-rodeado-de-círculo-34.png);
+    width:24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
 
 /*  ANIMACIONES  */
 
@@ -377,7 +387,12 @@ footer {
 
 /*  MEDIA QUERYS  */
 
-
+@media (min-width:1025px){
+    .my-work-content .card-work{
+        width: 310px;
+        height:240px;
+    }
+}
 @media (max-width:990px){
     .presentacion .row .d-flex div h1 {
         font-size: 2.5rem;
