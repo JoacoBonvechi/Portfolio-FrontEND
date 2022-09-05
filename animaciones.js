@@ -24,5 +24,5 @@ setTimeout(() => {
 },2000);
 
 setTimeout(() => {
-    maquinaEscribir1("Specialized in Front End.", 70, maquina3)
+    maquinaEscribir1("Front End Specialist.", 70, maquina3)
 },3500);
