@@ -120,7 +120,9 @@ body {
     text-align: center;
     color: white;
     padding-bottom: 30px;
-
+}
+.me-card {
+    padding: 20px 80px;
 }
 .me-card h3 , .studyes-card h3{
     font-weight: 400;
@@ -149,13 +151,12 @@ body {
 }
 
 .my-work-content {
-    padding: 80px 0px;
+    padding: 80px 10px;
 }
 
 .card-work {
-    width: 280px;
+    width: 350px;
     height:215px;
-    border-radius: 7px;
 }
 .card-work .card-content {
     width: 100%;
@@ -163,7 +164,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 7px;
     transition: all 400ms ease;
     display: flex;
     flex-wrap: wrap;
@@ -269,7 +269,15 @@ body {
 .contact-content div form .col-md-12 {
     height: auto;
 } 
-
+#button-form {
+    background-color: #0071bb;
+    color: white;
+    font-weight: 600;
+    width: 93%;
+}
+#button-form:hover{
+    background-color: #0164a5;
+}
 /*  FOOTER  */
 
 footer {
@@ -389,7 +397,7 @@ footer {
 
 @media (min-width:1025px){
     .my-work-content .card-work{
-        width: 310px;
+        width: 350px;
         height:240px;
     }
 }
@@ -405,6 +413,9 @@ footer {
         width: 275px;
         height: 275px;
         margin-right: 0;
+    }
+    .me-card {
+        padding: 20px;
     }
     .text-presentacion div div{
     opacity: 1;
@@ -439,6 +450,18 @@ footer {
     .footer-logo{
         margin-bottom: 20px;
     }
+    .my-work-content .card-work{
+        width: 340px;
+        height:240px;
+    }
+}
+@media (min-width: 768px){
+    .my-work-content {
+        padding: 80px 20px;
+    }
+    #button-form {
+        width: 96%;
+    }
 }
 @media(max-width:575px){
     .contact-content {
@@ -457,6 +480,9 @@ footer {
     .presentacion .text-presentacion h4{
         font-size: 1.5rem;
         padding: 0;
+    }
+    .card-work {
+        width: 290px;
     }
 }
 @media (min-width:1200px){

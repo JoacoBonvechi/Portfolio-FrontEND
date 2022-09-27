@@ -79,7 +79,7 @@
     <section class="container-fluid my-work">
         <h2>My Work</h2>
     </section>
-    <section class="container my-work-content d-flex flex-wrap justify-content-center gap-5">
+    <section class="container-fluid my-work-content d-flex flex-wrap justify-content-center gap-5">
             <div class="card-work">
                 <div class="card-content" id="javascript">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ab.</p>
@@ -124,7 +124,7 @@
     <section class="container contact-content">
         <div id="container-form">
             <h3>Form of Contact</h3>
-            <form class="row g-3 d-flex flex-wrap justify-content-evenly">
+            <form class="row g-3 d-flex flex-wrap justify-content-center">
                 <div class="col-md-6">
                   <label for="name" class="form-label">Name</label>
                   <input type="name" class="form-control" id="name">
@@ -145,6 +145,8 @@
                     <label for="message" class="form-label">Message</label>
                     <textarea class="form-control" id="message" name="message" rows="7"></textarea>
                 </div>
+
+                <button type="button" class="btn" id="button-form">Send</button>
 
             </form>
         </div>
