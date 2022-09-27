@@ -93,6 +93,11 @@ body {
 .tech-and-lang-content img {
     width: 110px;
     height: 110px;
+    transition: all ease 200ms;
+}
+.tech-and-lang-content img:hover {
+    transform: scale(1.2);
+    transition: all cubic-bezier(0, 0, 0, 1.76) 400ms;
 }
 
 /*ABOUT ME */
