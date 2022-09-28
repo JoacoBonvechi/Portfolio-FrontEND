@@ -21,7 +21,7 @@ body {
     height: 100%;
 }
 .text-presentacion {
-    padding-bottom: 40%;
+    
     width: max-content;
     height: 50%;
 }
@@ -130,10 +130,19 @@ body {
 }
 .me-card {
     padding: 20px 80px;
+    margin: auto;
+}
+.me-card p {
+    margin: 0;
+    padding-bottom: 30px;
+}
+.studyes-card {
+    padding: 20px 60px 30px 60px;
 }
 .me-card h3 , .studyes-card h3{
     font-weight: 400;
     padding: 20px;
+    margin: 0;
 }
 .bar-yoprogramo {
     background-color: #9747FF;
@@ -327,16 +336,6 @@ footer {
     margin-right: 10px;
     vertical-align: bottom;
 }
-.instagram-icon {
-    background-image: url(./assets/instagram.png);
-    width:24px;
-    height: 24px;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: inline-block;
-    margin-right: 10px;
-    vertical-align: bottom;
-}
 .linkedin-icon {
     background-image: url(./assets/icons8-linkedin-rodeado-de-círculo-34.png);
     width:24px;
@@ -424,6 +423,9 @@ footer {
     .me-card {
         padding: 20px;
     }
+    .studyes-card{
+        padding: 20px 25px 30px 25px
+    }
     .text-presentacion div div{
     opacity: 1;
     width: 13px;
@@ -456,8 +458,7 @@ footer {
         margin-bottom: 80px;
     }
     .about-me-content .col-sm-7 {
-        flex: 0 0 auto;
-        width: 70%;
+        width: 90%;
     }
     .footer-logo{
         margin-bottom: 20px;
