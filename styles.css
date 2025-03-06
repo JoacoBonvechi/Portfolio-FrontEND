@@ -225,7 +225,9 @@ body {
 .card-work #bankarg {
     background-image: url(./assets/Screenshot\ 2025-02-12\ 190028.png);
 }
-
+.card-work #estudiojuridico{
+    background-image: url(./assets/estudiojuridico.png);
+}
 
 
 .card-work .card-content:hover{
