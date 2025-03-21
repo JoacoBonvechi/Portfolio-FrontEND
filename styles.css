@@ -228,7 +228,9 @@ body {
 .card-work #estudiojuridico{
     background-image: url(./assets/estudiojuridico.png);
 }
-
+.card-work #saborexpress{
+    background-image: url(./assets/saborexpress.png);
+}
 
 .card-work .card-content:hover{
     box-shadow: -2px 0px 70px 200px rgba(30,30,30,0.95) inset;
